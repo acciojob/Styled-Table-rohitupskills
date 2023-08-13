@@ -1,1 +1,34 @@
 /* your code */
+#tbl-heading{
+	 border-collapse: collapse;
+/* 	width: 100%; */
+}
+#tbl-heading tr:nth-child(even){
+	background-color: lightgray;
+}
+#tbl-heading tr td{
+	padding:10px;
+}
+.table-radius3{
+	border-bottom-left-radius:10px;
+}
+.table-radius4{
+	border-bottom-right-radius:10px;
+}
+.table-radius1{
+	border-top-left-radius:10px;
+	padding-left:20px;
+}
+.table-radius2{
+	border-top-right-radius:10px;
+}
+#tbl-heading thead tr th{
+	background-color:#215A8E;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:200px;
+	text-align:left;
+	
+	
+}
